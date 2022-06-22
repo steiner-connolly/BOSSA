@@ -44,7 +44,7 @@ void
 BossaProgress::SetValue(int pos)
 {
     _statusGauge->SetValue(pos);
-#if __WIN32
+#if defined(WIN32) || defined(_WIN32) || defined(__WIN32__) || defined(__NT__) || defined (__CYGWIN__)
     // Work around slow update on Windows
     _statusGauge->SetValue(pos - 1);
     _statusGauge->SetValue(pos);

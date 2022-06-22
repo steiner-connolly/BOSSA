@@ -45,3 +45,5 @@ The following individuals and companies graciously provided development boards t
  * Atmel Corporation (SAM3N, SAM3S, SAM3U)
  * David Crocker (SAM4E, SAM4S)
  * Adafruit Industries (SAMD21, SAMD51)
+
+On MINGW32, I think you need to install ncurses-devel
